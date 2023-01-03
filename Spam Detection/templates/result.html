@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RESULT</title>
+</head>
+<body>
+
+
+<div class="result">
+	{% if prediction ==1 %}
+	<h2>Be Careful, It is SPAM.</h2>
+	{% elif prediction ==0 %}
+	<h2>Hurrraayyyy!!! It is Not SPAM.</h2>
+	{% endif %}
+</div>
+
+</body>
+</html>
